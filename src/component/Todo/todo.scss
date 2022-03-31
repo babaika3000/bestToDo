@@ -1,0 +1,46 @@
+.todo{
+
+&__button{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  &-list{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+
+  }
+
+}
+  button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    //text-transform: uppercase;
+    //letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+  }
+  button:hover {
+    background-position: right center;
+  }
+
+  button:first-child{
+    margin-left: 20px;
+  }
+  button:first-child ~ button{
+    margin-left:15px
+  }
+//{
+//   display: flex;
+//
+//  margin-left: 50px;
+//}
+
+
+  }
